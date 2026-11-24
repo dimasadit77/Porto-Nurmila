@@ -147,9 +147,9 @@ export const skills = [
 
 export const gallery = [
   { src: "/galeri/a.jpg", alt: "Deskripsi foto 1, misalnya: memfasilitasi kelas di SDN Pisangan Timur 13" },
-  { src: "/galeri/b.JPG", alt: "Deskripsi foto 2" },
-  { src: "/galeri/c.JPG", alt: "Deskripsi foto 3" },
-  { src: "/galeri/d.JPG", alt: "Deskripsi foto 4" },
+  { src: "/galeri/b.jpeg", alt: "Deskripsi foto 2" },
+  { src: "/galeri/c.jpeg", alt: "Deskripsi foto 3" },
+  { src: "/galeri/d.jpeg", alt: "Deskripsi foto 4" },
   { src: "/galeri/e.jpg", alt: "Deskripsi foto 5" },
   { src: "/galeri/f.jpeg", alt: "Deskripsi foto 6" },
 ];
