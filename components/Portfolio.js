@@ -201,8 +201,7 @@ export default function Portfolio() {
         {/* Ganti dengan foto: taruh file di public/cover.jpg lalu ubah background .cover di globals.css */}
         <div className="cover" role="img" aria-label="Banner halaman" />
         <div className="head">
-          {/* Ganti dengan foto: <img className="avatar" src="/foto.jpg" alt={profile.name} /> */}
-          <div className="avatar" aria-hidden="true">{initials}</div>
+          <img className="avatar" src="/profil/pfp.png" alt={profile.name} />
           <div className="who">
             <h1>{profile.name}</h1>
             <p className="role">{profile.title}</p>
