@@ -3,14 +3,14 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { profile, experience, organisasi, events, education, certifications, skills, gallery, contacts } from "../data/profile";
 
 const tabs = [
-  ["tentang", "Tentang"],
-  ["pengalaman", "Pengalaman"],
-  ["organisasi", "Organisasi"],
-  ["kepanitiaan", "Kepanitiaan"],
-  ["pendidikan", "Pendidikan"],
-  ["sertifikasi", "Sertifikasi"],
-  ["keahlian", "Keahlian"],
-  ["kontak", "Kontak"],
+  ["tentang", "About Me"],
+  ["pendidikan", "Education"],
+  ["pengalaman", "Experience"],
+  ["organisasi", "Organizations"],
+  ["kepanitiaan", "Event Organization"],
+  ["sertifikasi", "Certifications"],
+  ["keahlian", "Skills"],
+  ["kontak", "Contact"],
 ];
 
 const initials = profile.name.split(" ").slice(0, 2).map((w) => w[0]).join("");
@@ -56,7 +56,7 @@ function Timeline({ items, onOpen }) {
       {items.map((e) => (
         <li key={e.role + e.org}>
           <h3>{e.role}</h3>
-          <p className="meta">{e.org}, {e.period}</p>
+          <p className="meta">{e.org} • {e.period}</p>
           <ul>{e.points.map((p) => <li key={p}>{p}</li>)}</ul>
           <Photos photos={e.photos} onOpen={onOpen} />
         </li>
@@ -252,7 +252,7 @@ export default function Portfolio() {
 
       <main>
         <section id="tentang">
-          <h2>Tentang Saya</h2>
+          <h2>About Me</h2>
 
           <div className="gallery">
             {gallery.map((g) => (
@@ -267,7 +267,7 @@ export default function Portfolio() {
         </section>
 
         <section id="pendidikan">
-          <h2>Pendidikan</h2>
+          <h2>Educational Background</h2>
           <ul className="rows">
             {education.map((e) => (
               <li key={e.title} className="row">
@@ -276,7 +276,10 @@ export default function Portfolio() {
                     <h3>{e.title}</h3>
                     <p className="meta">{e.org}</p>
                   </div>
-                  <span className="card-year">{e.period}</span>
+                  <div className="row-right">
+                    <p className="card-year">{e.period}</p>
+                    <p className="card-grades">{e.grades}</p>
+                  </div>
                 </div>
 
                 {e.courses?.length > 0 && (
@@ -297,7 +300,7 @@ export default function Portfolio() {
         </section>
 
         <section id="pengalaman">
-          <h2>Pengalaman profesional</h2>
+          <h2>Internship Experience</h2>
           <Timeline items={experience} onOpen={openPhotos} />
         </section>
 

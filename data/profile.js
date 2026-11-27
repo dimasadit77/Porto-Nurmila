@@ -1,20 +1,18 @@
 export const profile = {
   name: "Nurmila Pra Astuti",
-  title: "Mahasiswa Manajemen Pendidikan, Universitas Negeri Jakarta",
+  title: "Cileungsi, Bogor Regency, Indonesia",
   tagline:
-    "Berfokus pada manajemen lembaga pendidikan dan pengembangan sumber daya mahasiswa, dengan komunikasi yang efektif sebagai kekuatan utama.",
-  email: "praastutinurmila@gmail.com",
-  location: "Bogor, Indonesia",
+    "Focusing on the management of educational institutions and the development of student resources, with effective communication as the main strength.",
   about: [
-    "Saya mahasiswa Manajemen Pendidikan yang tertarik pada pengembangan kurikulum pembelajaran, pengelolaan sekolah yang inklusif, dan program yang berorientasi pada mutu pendidikan.",
-    "Di organisasi kampus saya memimpin komisi legislatif bidang PSDM serta minat dan bakat, merancang rekomendasi kebijakan, dan memantau serta mengevaluasi program. Di luar kampus, saya pernah menjadi operator sekolah, penulis konten, dan fasilitator di sekolah dasar.",
+    "Hi, I’m Nurmila Pra Astuti, an Education Management student with an interest in effective communication and quality education.",
+    "Undergraduate of Educational Management student with an interest in human resource development, talent management, and organizational development. Through my organizational involvement, I have gained experience in coordinating human resource development initiatives, formulating policy recommendations, and conducting program monitoring and evaluation. My professional experience also spans administrative operations, content development, and facilitating capacity-building activities within educational settings.",
   ],
 };
 
 export const experience = [
   {
     role: "Civil Servant Development Intern",
-    org: "Kementerian Sekretariat Negara RI, Jakarta",
+    org: "Kementerian Sekretariat Negara RI • Jakarta",
     period: "August 2026 - December 2026",
     points: [
       "Evaluate post-event improvement by mentor and event satisfaction on Civil Servants Scholarship Scouting Program using Kirkpatrick Evaluation Model (Level 1–4)",
@@ -46,10 +44,11 @@ export const experience = [
   {
     role: "Content Writer & Editor",
     org: "Tanoto Foundation, Indonesia",
-    period: "2024",
+    period: "Jun 2024 - Jan 2025",
     points: [
-      "Supervise and evaluate KPI performance of TIPE PKKMB FIP 2025 committee",
-      "Improving internal resources including human empowering, program planning, and orientation environment for new students orientation program on faculty level.",
+      "Developed educational content on education and health topics to facilitate knowledge sharing and public awareness initiatives.",
+      "Conducted research and transformed program updates and field insights into structured informational materials for effective knowledge transfer.",
+      "Reviewed and refined content to ensure accuracy, relevance, and alignment with organizational learning and communication objectives."
     ],
   },
 ];
@@ -60,9 +59,9 @@ export const organisasi = [
     org: "BPM FIP Universitas Negeri Jakarta",
     period: "Des 2024 – Mar 2026",
     points: [
-      "Led Commission I, overseeing human resource development and talent/interest programs within the Student Representative Board (BPM), Faculty of Education",
+      "Led Commission 1, overseeing human resource development and talent/interest programs within the Student Representative Board (BPM), Faculty of Education",
       "Designed programs to strengthen members' soft skills, leadership, and organizational competencies, Identified and facilitated students' talents and interests through structured activities",
-      "Meningkatkan kesadaran siswa tentang pencegahan bullying dan lingkungan belajar yang aman.",
+      "Evaluating event workflow plan and internal budgeting during the program period and supervising on Commission Program Team by the KPI performance and pre-event coaching ",
     ],
     photos: [
       { src: "/pengalaman/p4.jpeg", alt: "Sertifikat Kepala Komisi 1 PSDM dan Minat Bakat" },
@@ -73,37 +72,37 @@ export const organisasi = [
     org: "DPM FIP Universitas Negeri Jakarta",
     period: "Des 2023 - Jan 2026",
     points: [
-      "Memimpin perencanaan, pengawasan, dan kajian strategis terkait pengembangan usaha mahasiswa.",
-      "Mengoordinasikan anggota komisi dan memantau kinerja eksekutif.",
+      "Led Commission 1 for overseeing entrepreneurship initiatives and developing programs to strengthen members on business skills and entrepreneurial mindset.",
+      "Managed event workflow and hands-on module planning, event budgeting, and commission evaluation by team response KPI performance",
+      "Mentored and supervised commission team members to ensure effective execution of entrepreneurship development initiatives.",
     ],
     photos: [
-      { src: "/pengalaman/fasilitator-1.jpg", alt: "Memberi materi anti-bullying di kelas" },
-      { src: "/pengalaman/fasilitator-2.jpg", alt: "Sesi diskusi bersama siswa" },
-      { src: "/pengalaman/fasilitator-3.jpg", alt: "Foto bersama peserta" },
-      { src: "/pengalaman/fasilitator-4.jpg", alt: "Dokumentasi kegiatan" },
-      { src: "/pengalaman/fasilitator-5.jpg", alt: "Penyerahan materi" },
+      { src: "/pengalaman/p9.jpeg", alt: "Memberi materi anti-bullying di kelas" },
+      { src: "/pengalaman/p10.jpeg", alt: "Sesi diskusi bersama siswa" }
     ],
   },
 ];
 
 export const events = [
-  { title: "Sidang Umum DPM MP FIP 2025/2026", role: "Koordinator Acara", year: "2026", desc: "Menyusun konsep dan teknis acara serta mengelola alur sidang." },
-  { title: "Sidang Pleno BPM FIP 2025/2026", role: "Ketua Pelaksana", year: "2025", desc: "Memimpin perencanaan dan pelaksanaan sidang, termasuk koordinasi panitia." },
-  { title: "DIMA FIP UNJ 2025", role: "Staf Humas, Publikasi, dan Dokumentasi", year: "2026", desc: "Mengelola komunikasi publik dan publikasi dialog mahasiswa fakultas." },
-  { title: "Bakti Sosial BPM FIP 2025/2026", role: "Staf Humas", year: "2026", desc: "Menangani komunikasi dengan panti asuhan dan menyusun publikasi kegiatan." },
-  { title: "Studi Banding BPM FIP UNJ x DPM FEMA IPB", role: "Staf Humas", year: "2025", desc: "Mengelola komunikasi, konten, dan dokumentasi kegiatan lintas institusi." },
-  { title: "Studi Banding DPM MP FIP x BPM FPPSI", role: "Staf Humas", year: "2025", desc: "Menyusun materi informasi dan dokumentasi kegiatan studi banding." },
-  { title: "Legislative Class", role: "Staf Acara", year: "2025", desc: "Mendukung konsep acara dan koordinasi peserta serta pemateri." },
-  { title: "TIPE PKKMB FIP 2024", role: "Staf Humas, Publikasi, dan Dokumentasi", year: "2024", desc: "Mengelola informasi kegiatan dan produksi konten publikasi." },
-  { title: "MP Expo 2024", role: "Staf Creation", year: "2024", desc: "Menjadi penghubung juri lomba dan panitia terkait penilaian dan jadwal." },
+  { title: "Sidang Umum DPM MP FIP 2025/2026", role: "Koordinator Acara", year: "2026" },
+  { title: "Sidang Pleno BPM FIP 2025/2026", role: "Ketua Pelaksana", year: "2025" },
+  { title: "DIMA FIP UNJ 2025", role: "Staf Humas, Publikasi, dan Dokumentasi", year: "2026" },
+  { title: "Bakti Sosial BPM FIP 2025/2026", role: "Staf Humas", year: "2026" },
+  { title: "Studi Banding BPM FIP UNJ x DPM FEMA IPB", role: "Staf Humas", year: "2025" },
+  { title: "Studi Banding DPM MP FIP x BPM FPPSI", role: "Staf Humas", year: "2025" },
+  { title: "Legislative Class", role: "Staf Acara", year: "2025" },
+  { title: "TIPE PKKMB FIP 2024", role: "Staf Humas, Publikasi, dan Dokumentasi", year: "2024" },
+  { title: "MP Expo 2024", role: "Staf Creation", year: "2024" },
 ];
 
 export const education = [
   { title: "Manajemen Pendidikan", 
     org: "Universitas Negeri Jakarta", 
-    period: "2023 – sekarang",
+    period: "2023 – now",
+    grades: "IPK 3.81 / 4.00",
     courses: [
-    { name: "Dasar-Dasar Perencanaan Pendidikan", note: "Dipraktikkan lewat kegiatan di SDN Pisangan Timur 13" },
+    { name: "Relevant Courses", 
+      note: "Human Resource Management • Organizational Behavior • Organizational Leadership • Human Resource Development • Training and Development • Performance Monitoring and Evaluation • Organizational Development" },
   ],
    }
 ];
@@ -146,12 +145,14 @@ export const skills = [
 ];
 
 export const gallery = [
-  { src: "/galeri/a.jpg", alt: "Deskripsi foto 1, misalnya: memfasilitasi kelas di SDN Pisangan Timur 13" },
-  { src: "/galeri/b.jpeg", alt: "Deskripsi foto 2" },
-  { src: "/galeri/c.jpeg", alt: "Deskripsi foto 3" },
-  { src: "/galeri/d.jpeg", alt: "Deskripsi foto 4" },
-  { src: "/galeri/e.jpg", alt: "Deskripsi foto 5" },
+  { src: "/galeri/a.png", alt: "Deskripsi foto 1, misalnya: memfasilitasi kelas di SDN Pisangan Timur 13" },
+  { src: "/galeri/b.png", alt: "Deskripsi foto 2" },
+  { src: "/galeri/c.png", alt: "Deskripsi foto 3" },
+  { src: "/galeri/d.png", alt: "Deskripsi foto 4" },
+  { src: "/galeri/e.jpeg", alt: "Deskripsi foto 5" },
   { src: "/galeri/f.jpeg", alt: "Deskripsi foto 6" },
+  { src: "/galeri/g.jpeg", alt: "Deskripsi foto 7" },
+  { src: "/galeri/h.jpeg", alt: "Deskripsi foto 8" }
 ];
 
 export const contacts = [
